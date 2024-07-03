@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Iron Maiden</title>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Maiden</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,6 +20,8 @@
 <!-- Font -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;
             1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+            
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <!-- Css -->
     <link rel="stylesheet" href="assets/css/Custom.css">
@@ -27,59 +30,206 @@
 </head>
 
 <body>
-    <header id="hero">
+  <header id="hero" class="fixed">
 		<nav>
 		  <div id="nav-container" class="nav-wrapper container center-align">
             <a href="#"><img class="responsive-img" src="assets/img/LogoIron.png"></a>
-	      </div>
-	    </nav>
-    </header>
+	    </div>
+	  </nav>
+  </header>
 
-    <section id="container-bg">
-        <div class="container">
-            <div id="container-bg-2">
-                <div class="col s12 m6 l6 x6">
-                    <div id="band-title"><h1>A banda</h1></div>
-                    <p>O <b>Iron Maiden</b> é uma instituição. Ao longo de 46 anos, eles incorporaram um espírito de independência criativa destemida, dedicação feroz aos seus fãs e uma indiferença alegre aos seus críticos que lhes conquistou seguidores que abrangem todas as culturas, gerações e fusos horários.
-                        Uma história de determinação corajosa e desafio corajoso dos pessimistas, a aventura deles tem sido uma aventura como nenhuma outra. 
+  <section id="container-bg">
+    <div class="container">
+        <div class="col s12 m6 l6 x6">
+          <div id="band-title"><h1>A banda</h1></div>
+          <p>O <b>Iron Maiden</b> é uma instituição. Ao longo de 46 anos, eles incorporaram um espírito de independência criativa destemida, dedicação feroz aos seus fãs e uma indiferença alegre aos seus críticos que lhes conquistou seguidores que abrangem todas as culturas, gerações e fusos horários.
+              Uma história de determinação corajosa e desafio corajoso dos pessimistas, a aventura deles tem sido uma aventura como nenhuma out
+              Fundado pelo baixista <b>Steve Harris</b> em meados dos anos 70, o Iron Maiden já estava firmemente estabelecido como a maior esperança do heavy metal quando invadiu o mundo com seu terceiro álbum (e o primeiro com o vocalista <b>Bruce Dickinson</b>) <b>The Number Of The Beast em 1982</b>.
+          </br>Uma década de lançamentos clássicos e turnês obstinadas que representariam o compromisso implacável, intransigente e inabalável pelo qual são agora tão conhecidos.
+              Essa década maravilhosa também renderia sete novos álbuns de estúdio, um álbum ao vivo, sete turnês mundiais, bem como a criação de Eddie - uma das figuras mais icônicas e reconhecíveis da nossa época e o cartão de visita das bases de fãs mais apaixonadas de qualquer lugar.</p>
+          <div id="band-image">
+              <img class="img" src="assets/img/fotobanda.jpg" alt="Integrantes da Banda Iron Maiden">
+              <figcaption>Integrantes da Banda</figcaption>
+          </div>
+        
+    </div>
+  
 
-                        Fundado pelo baixista <b>Steve Harris</b> em meados dos anos 70, o Iron Maiden já estava firmemente estabelecido como a maior esperança do heavy metal quando invadiu o mundo com seu terceiro álbum (e o primeiro com o vocalista <b>Bruce Dickinson</b>) <b>The Number Of The Beast em 1982</b>.
-                    </br>Uma década de lançamentos clássicos e turnês obstinadas que representariam o compromisso implacável, intransigente e inabalável pelo qual são agora tão conhecidos.
-                        Essa década maravilhosa também renderia sete novos álbuns de estúdio, um álbum ao vivo, sete turnês mundiais, bem como a criação de Eddie - uma das figuras mais icônicas e reconhecíveis da nossa época e o cartão de visita das bases de fãs mais apaixonadas de qualquer lugar.</p>
-                    <div id="band-image">
-                        <img class="img" src="assets/img/fotobanda.jpg" alt="Integrantes da Banda Iron Maiden">
-                        <span><h3>Integrantes da Banda</h3></span>
-                    </div>
+    <!--Albuns-->          
+    <section id="albuns" class="container">   
 
-                    <div class="row">
-                        <div class="col s12 m12">
-                            <div class="card-panel grey lighten-5 z-depth-1">
-                              <div class="row valign-wrapper">
-                                <div class="col s2 m12">
-                                  <img src="assets/img/bruce.webp" alt class="circle responsive-img valign"> <!-- notice the "circle" class -->
-                                </div>
-                                <div class="col s10">
-                                  <span class="black-text">
-                                    "Eu me orgulho muito do Iron Maiden.
-                                    Também me sinto muito orgulhoso das coisas que eu fiz fora da banda, mas essas coisas não tocam milhões de pessoas."
-                                    (BTMagasinet - Agosto/2014) 
-                                  </span>
-                                </div>
-                              </div>
-                            </div>
-                        </div>
-                    </div>
-                                
-                    
-                
+        <div id="albuns-title"><h2>Albuns da Banda</h2></div>
 
+        <!--Fist Column-->
 
-
-                </div>   
+        <div class="row">
+        
+          <!--Album-->
+          <div class="col s12 m6 l4 xl3">
+            <div class="card">
+              <div class="card-img">
+                  <a href="https://www.youtube.com/watch?v=7DcVwd31uC0&list=PLIKpCFu8Fpmn-0_lGczCaEKJD4pGGzFkd" target="_blank">
+                  <img src="assets/img/Iron_Maiden_-_Iron_Maiden_1998.jpg" alt="Avatar" class="image" style="width: 100%;"></a>
+                  <div class="Text-link">
+                    <div class="text">Ouça Agora</div>
+                  </div>  
+              </div>
+              <div>
+                <h3 class="title-album-card">Iron Maiden</h3>
+              </div>
             </div>
+          </div>
+        
+          <!--Album-->
+          <div class="col s12 m6 l4 xl3">
+            <div class="card">
+              <div class="card-img">
+                  <a href="https://www.youtube.com/watch?v=qgqVmAyTvIA&list=OLAK5uy_k7BxSdOVbNPvjcMCzbgfpq9p2vPjqxaWU&index=2" target="_blank">
+                  <img src="assets/img/album-killers.jpg" alt="Avatar" class="image" style="width: 100%;"></a>
+                  <div class="Text-link">
+                    <div class="text">Ouça Agora</div>
+                  </div>
+                  <div>
+                    <h3 class="title-album-card">Killers</h3>
+                  </div>
+              </div>
+            </div>
+          </div>
+        
+          <!--Album-->
+          <div class="col s12 m6 l4 xl3">
+            <div class="card">
+              <div class="card-img">
+                  <a href="https://www.youtube.com/watch?v=MLYdFSaE4tk&list=OLAK5uy_kJWCqs9IWd6VTIMEipf_f3rI0q289WDKY&index=3" target="_blank">
+                  <img src="assets/img/album-number-of-the-beast.jpg" alt="Avatar" class="image" style="width: 100%;"></a>
+                  <div class="Text-link">
+                    <div class="text">Ouça Agora</div>
+                  </div>  
+              </div>
+              <div>
+                <h3 class="title-album-card">The Number Of The Beast</h3>
+              </div>
+            </div>
+          </div>
+        
+          <!--Album-->
+          <div class="col s12 m6 l4 xl3">
+            <div class="card">
+              <div class="card-img">
+                  <a href="https://youtube.com/playlist?list=OLAK5uy_lf_LhJoD5mfEGNSRjZ8Je2oN8aU3AB4EA&si=ZIx7IQGcMgb7Jaq3" target="_blank">
+                  <img src="assets/img/album-piece-of-mind.jpg" alt="Avatar" class="image" style="width: 100%;"></a>
+                  <div class="Text-link">
+                    <div class="text">Ouça Agora</div>
+                  </div>  
+              </div>
+              <div>
+                <h3 class="title-album-card">Piece Of Mind</h3>
+              </div>
+            </div>
+          </div>
+        
+        <!--Second Column-->
+        
+        <div class="row">
+          <!--Album-->
+          <div class="col s12 m6 l4 xl3">
+            <div class="card">
+              <div class="card-img">
+                  <a href="https://www.youtube.com/playlist?list=OLAK5uy_l9lXiFt084YV0_nmzXgdTdpcmdh3h-wLE" target="_blank">
+                  <img src="assets/img/album-power-slave.jpg" alt="Avatar" class="image" style="width: 100%;"></a>
+                  <div class="Text-link">
+                    <div class="text">Ouça Agora</div>
+                  </div>  
+              </div>
+              <div>
+                <h3 class="title-album-card">Powerslave</h3>
+              </div>
+            </div>
+          </div>
+        
+          <!--Album-->
+          <div class="col s12 m6 l4 xl3">
+            <div class="card">
+              <div class="card-img">
+                  <a href="https://www.youtube.com/playlist?list=OLAK5uy_lV__j36LdAy7n29IAopF2A8F_-TKYAiQM" target="_blank">
+                  <img src="assets/img/album-seventh-son.jpg" alt="Avatar" class="image" style="width: 100%;"></a>
+                  <div class="Text-link">
+                    <div class="text">Ouça Agora</div>
+                  </div>  
+              </div>
+              <div>
+                <h3 class="title-album-card">Seventh Son Of a Seventh Son </h3>
+              </div>
+            </div>
+          </div>
+        
+          <!--Album-->
+          <div class="col s12 m6 l4 xl3">
+            <div class="card">
+              <div class="card-img">
+                  <a href="https://www.youtube.com/playlist?list=OLAK5uy_nGf6pYQvwSTKtXSUp1oA06O0_nsmQo4q4" target="_blank">
+                  <img src="assets/img/album-somewhere-in-time.jpg" alt="Avatar" class="image" style="width: 100%;"></a>
+                  <div class="Text-link">
+                    <div class="text">Ouça Agora</div>
+                  </div>  
+              </div>
+              <div>
+                <h3 class="title-album-card">Somewhere in Time</h3>
+              </div>
+            </div>
+          </div>
+        
+          <!--Album-->
+          <div class="col s12 m6 l4 xl3">
+            <div class="card">
+              <div class="card-img">
+                  <a href="https://www.youtube.com/playlist?list=OLAK5uy_ny4fmK_JQaEfdUBkbNEEPAP9pI0lkq1PY" target="_blank">
+                  <img src="assets/img/album-the-book-of-souls.jpg" alt="Avatar" class="image" style="width: 100%;"></a>
+                  <div class="Text-link">
+                    <div class="text">Ouça Agora</div>
+                  </div>  
+              </div>
+              <div>
+                <h3 class="title-album-card">The Book Of Souls</h3>
+              </div>
+            </div>
+          </div>
         </div>
     </section>
 
-    
+<!-- Citação -->
+
+    <section>
+      <div id="coment-container">
+        <div class="row">
+          <div class="col s12 m3">
+            <img src="assets/img/bruce.webp" alt class="circle valign">
+          </div>
+          <blockquote>
+            "Eu me orgulho muito do Iron Maiden.
+             Também me sinto muito orgulhoso das coisas que eu fiz fora da banda, mas essas coisas não tocam milhões de pessoas." - Bruce Dickinson
+             (BTMagasinet - Agosto/2014)
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <div id="final-container" class="container-center align">
+      <div class="col s12 m6 l6 x6">
+        <div><h2>O retorno pós pândemia</h2></div>
+        <p class="show-text">O lançamento de <b>Senjutsu</b> também anunciou um retorno verdadeiramente emocionante e igualmente ambicioso aos palcos ao vivo,
+          e como responder melhor a um mundo mudado do que com uma turnê diferente.<br/>
+          As datas retomadas do <b>Legacy of the Beast</b> veriam a fusão desse setlist histórico com o mundo do Senjutsu
+          com um efeito emocionante e explosivo e arenas esgotadas ao redor do mundo, incluindo um retorno inesquecível ao <b>Rock in Rio.</b> </p>
+        <div id="show-image">
+            <img class="img" src="assets/img/Iron Maiden rock in rio 2022.jpg" alt="Iron Maiden Rock In Rio 2022">
+            <figcaption>Iron Maiden Rock In Rio 2022</figcaption>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
 </body>
 </html>
