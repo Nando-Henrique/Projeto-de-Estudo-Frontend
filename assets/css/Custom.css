@@ -8,17 +8,19 @@ body{
 
 
 h1{
-    padding: 50px 0px 20px 0px;
+    margin-top: 150px;
+    padding: 50px 0px 0px 0px;
     font-size: 48px;
     font-weight: 600;
 
 }
 
-h3{
-    text-align: center;
-    font-size: 10px;
-    font-weight: 400;
-    margin-top: 0;
+h2{
+    margin-top: 45px;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 600;
+
 }
 
 p{
@@ -27,9 +29,14 @@ p{
 
 }
 
+figcaption{
+    text-align: center;
+    font-size: 10px;
+}
 
-
-
+div.col{
+    padding: 0;
+}
 
 /*** HEADER ***/
 
@@ -40,30 +47,59 @@ p{
 }
 
 header nav{
+    overflow: hidden;
+    z-index: 10;
+    position: fixed;
     background-color: #000;
     height: 100px;
+    top: 0;
 }
 
 
+/** COMENT **/
+
+.circle{
+    width: 70%;
+    content: none;
+    margin: auto;
+    padding: 0%;
+}
+
+#coment-container{
+    margin-top: 50px;
+    background-color: #222;
+    padding: 30px;
+    border-radius: 5px;
+    
+}
+
+blockquote{
+    border: none;
+
+}
 
 /*** CONTAINER ***/
 
+
 #container-bg{
-    background: #666;
+
+    background-color: #666;
     margin: 40px;
     border-radius: 10px;
-    height: 2000px;
-    
-
+    height: auto;
+    top: 50px;
 }
 
 .img{
     z-index: 1;
     width: 100%;
     height: auto;
-    padding: 0;
     margin: 0;
 
+}
+
+#band-image{
+    margin-top: 20px;
 }
 
 
@@ -76,3 +112,97 @@ img.responsive-img {
 .circle{
     border-radius: 50%;
 }
+
+a.card-image{
+
+    width: 50%;
+    padding: 0;
+    margin: 24px;
+    top: 24px;
+    position: center;
+    
+}
+
+/** Cards Album **/
+
+#cards{
+
+    width: auto;
+    padding: 0;
+
+}
+#albuns{
+    margin: 0px;
+    width: auto;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.card .card-content{
+    color: #000;
+    padding: 24px;
+    padding-top: 0px;
+    font-size: 10px;
+}
+
+.title-album-card{
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    color: #000;
+    padding: 5px;
+    margin-top: 0;
+}
+
+
+/** Container to music link **/
+.text{
+    color: #000;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.card:hover .Text-link {
+    opacity: 1;
+  }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .Text-link {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .card:hover .image {
+    opacity: 0.3;
+  }
+
+
+/** Final Container **/
+
+#final-container{
+    display: flex;
+    justify-content:left;
+    margin-top: 50px;
+}
+
+.show-image{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 0px;
+
+}
+
+  
